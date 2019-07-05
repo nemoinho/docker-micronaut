@@ -6,12 +6,12 @@ _The target community are basically linux users_
 
 ## Usage
 
-    docker run --rm -it -v $PWD:/app nemoinho/nm create-app hello-world
+    docker run --rm -it -v $PWD:/app nemoinho/mn create-app hello-world
 
 ### Alias
 Create an alias to invoke the command through docker like it is installed locally:
 
-    alias nm=`docker run --rm -it -v $PWD:/app nemoinho/nm`
+    alias mn='docker run --rm -it -v $PWD:/app nemoinho/mn'
 
-    nm create-app hello-world
+    mn create-app hello-world
 
